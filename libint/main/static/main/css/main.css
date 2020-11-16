@@ -1,0 +1,65 @@
+body {
+    background: #FFE4C4;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #F0C17B;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 100px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 35px;
+    margin-left: 0px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+aside ul li {
+    color: #A4EDD8;
+    display: block;
+    margin-top: 20px;
+    transition: all .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .catalog {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
